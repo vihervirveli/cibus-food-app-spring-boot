@@ -4,6 +4,10 @@ Backend for Cibus Food App
 
 ## Log
 
+### October 24, 2025
+
+Added Food, Ingredient and Recipe models. Restructured.
+
 ### October 21st, 2025
 
 Connected PostgreSQL to backend, logging works now
