@@ -20,7 +20,7 @@ import lombok.NoArgsConstructor;
 public class Food {
     @Id
     private Integer Id;
-    private String FoodName;
+    private String Name;
     // calories per 100g
     private Double Calories;
 

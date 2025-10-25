@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 /*
  * 
  * In a recipe, this is the ingredient - amount pair, eg. 300g potatoes.
+ * 300 is the quantity, gram the descriptor
  */
 @NoArgsConstructor
 @AllArgsConstructor
@@ -20,6 +21,8 @@ public class Ingredient {
 
     @Id
     private Integer Id;
-    private String IngredientName;
-    private String Quantity;
+    // which food this is referring to, Foreign Key
+    private Integer FoodId;
+    private Double Quantity;
+    private String Descriptor;
 }
