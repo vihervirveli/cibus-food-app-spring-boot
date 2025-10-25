@@ -1,6 +1,8 @@
 package com.example.app.model;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -19,9 +21,23 @@ import lombok.NoArgsConstructor;
 @Table(name = "food")
 public class Food {
     @Id
-    private Integer Id;
-    private String Name;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    // Cheese
+    private String name;
+    // Coop
+    private String brand;
+    // Kermajuusto
+    private String product;
     // calories per 100g
-    private Double Calories;
+    private Double calories;
+
+
+    /*
+     * Getter for id
+     */
+    public Long getId(){
+        return id;
+    }
 
 }
