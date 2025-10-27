@@ -4,6 +4,12 @@ Backend for Cibus Food App
 
 ## Log
 
+### October 27, 2025
+
+Planned out the structure of the database and removed unnecessary fields
+
+![sqlschema](screenshots/sqlschema.png)
+
 ### October 25, 2025
 
 Created tables in PGAdmin. Added more attributes to Food model to allow for brand and product information.

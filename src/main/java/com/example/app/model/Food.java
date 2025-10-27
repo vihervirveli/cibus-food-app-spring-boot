@@ -33,6 +33,7 @@ public class Food {
     private Double calories;
 
 
+
     /*
      * Getter for id
      */
