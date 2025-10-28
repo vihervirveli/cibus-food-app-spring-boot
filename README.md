@@ -4,6 +4,14 @@ Backend for Cibus Food App
 
 ## Log
 
+### October 28, 2025
+
+Planned out the structure some more, made changes to existing files and created new files
+
+For instance, made models for the planned out tables, and decided to make another table for images
+
+![sql2](screenshots/sqlschema2.png)
+
 ### October 27, 2025
 
 Planned out the structure of the database and removed unnecessary fields
