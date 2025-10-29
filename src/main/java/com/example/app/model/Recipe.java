@@ -26,6 +26,7 @@ public class Recipe {
     // approximately how long it takes to prepare the recipe
     private Integer time;
     private String preview;
-    private String instructions;
     private Integer Ratings;
+    private String instructions;
+
 }
