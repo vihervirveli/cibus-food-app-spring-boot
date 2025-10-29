@@ -4,6 +4,10 @@ Backend for Cibus Food App
 
 ## Log
 
+### October 29, 2025
+
+Removed Ingredient class (replaced by FoodRecipe class), edited other classes
+
 ### October 28, 2025
 
 Planned out the structure some more, made changes to existing files and created new files
