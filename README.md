@@ -6,7 +6,9 @@ Backend for Cibus Food App
 
 ### October 29, 2025
 
-Removed Ingredient class (replaced by FoodRecipe class), edited other classes
+Removed Ingredient class (replaced by FoodRecipe class), edited other classes.
+
+Included tag migration table
 
 ### October 28, 2025
 
