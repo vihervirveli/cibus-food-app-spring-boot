@@ -10,6 +10,8 @@ Added the routes (controller), service, and repository for Tag
 
 ![tag post](screenshots/tagPOST.png)
 
+Added recipe migration table
+
 ### October 29, 2025
 
 Removed Ingredient class (replaced by FoodRecipe class), edited other classes.
