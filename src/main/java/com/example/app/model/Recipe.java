@@ -26,7 +26,15 @@ public class Recipe {
     // approximately how long it takes to prepare the recipe
     private Integer time;
     private String preview;
-    private Integer Ratings;
+    private Integer ratings;
     private String instructions;
 
+    /**
+     * Getter for id
+     * 
+     * @return id
+     */
+    public Integer getId() {
+        return id;
+    }
 }

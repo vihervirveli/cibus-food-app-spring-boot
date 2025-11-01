@@ -32,7 +32,7 @@ public class Food {
     // calories per 100g
     private Double calories;
 
-    /*
+    /**
      * Getter for id
      * 
      * @return id

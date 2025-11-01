@@ -1,7 +1,7 @@
 package com.example.app.controller;
 
-import com.example.app.model.Food;
 import com.example.app.model.Tag;
+import com.example.app.service.TagService;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.http.ResponseEntity;
-import com.example.app.service.TagService;
+
 import java.util.List;
 
 @RestController
@@ -19,6 +19,11 @@ public class TagController {
 
     private final TagService tagService;
 
+    /**
+     * Constructor
+     * 
+     * @param tagService
+     */
     public TagController(TagService tagService) {
         this.tagService = tagService;
 
@@ -35,9 +40,12 @@ public class TagController {
         return ResponseEntity.ok().body(tagService.getAllTags());
     }
 
-    /*
+    /**
      * GET request for fetching one tag with given id
      * URL: localhost:8080/tag/v1/{id}
+     * 
+     * @param id
+     * @return tag by its id
      */
     @GetMapping("/{id}")
     public ResponseEntity<Tag> getTagById(@PathVariable Integer id) {

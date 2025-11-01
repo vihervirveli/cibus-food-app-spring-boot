@@ -8,7 +8,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
@@ -16,26 +15,26 @@ import java.util.Optional;
 public class TagService {
     private final TagRepository tagRepository;
 
-    /*
+    /**
      * @return all tags
      */
     public List<Tag> getAllTags() {
         return tagRepository.findAll();
     }
 
-    /*
-     * Gets a tag by its ID
+    /**
+     * Gets a tag by its id
      * 
      * @param id - id
      * 
-     * @return tag by its ID
+     * @return tag by its id
      */
     public Tag getTagById(Integer id) {
         return tagRepository.findById(id).orElse(null);
 
     }
 
-    /*
+    /**
      * @param tag - tag to save
      * 
      * @return savedTag
