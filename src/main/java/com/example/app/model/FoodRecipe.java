@@ -29,4 +29,13 @@ public class FoodRecipe {
     private Integer recipeId;
     private Double quantity;
     private String descriptor;
+
+    /**
+     * Getter for id
+     * 
+     * @return id
+     */
+    public Integer getId() {
+        return id;
+    }
 }
