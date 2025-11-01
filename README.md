@@ -10,7 +10,11 @@ Added the routes (controller), service, and repository for Tag
 
 ![tag post](screenshots/tagPOST.png)
 
-Added recipe migration table
+Added recipe AND recipe_tag migration tables, and the controllers, services and repositories
+
+for recipeTag
+
+Now only missing Image and FoodRecipe
 
 ### October 29, 2025
 
