@@ -4,6 +4,10 @@ Backend for Cibus Food App
 
 ## Log
 
+### November 2nd, 2025
+
+Added FoodRecipe migration table, controller, service and repository
+
 ### November 1st, 2025
 
 Added the routes (controller), service, and repository for Tag
