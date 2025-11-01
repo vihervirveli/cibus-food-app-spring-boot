@@ -20,6 +20,15 @@ import lombok.NoArgsConstructor;
 public class Tag {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Integer id;
     private String tag;
+
+    /**
+     * Returns the id
+     * 
+     * @return id
+     */
+    public Integer getId() {
+        return id;
+    }
 }

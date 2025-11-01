@@ -22,7 +22,7 @@ import lombok.NoArgsConstructor;
 public class Food {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Integer id;
     // Cheese
     private String name;
     // Coop
@@ -32,12 +32,12 @@ public class Food {
     // calories per 100g
     private Double calories;
 
-
-
     /*
      * Getter for id
+     * 
+     * @return id
      */
-    public Long getId(){
+    public Integer getId() {
         return id;
     }
 

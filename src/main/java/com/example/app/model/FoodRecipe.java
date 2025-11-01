@@ -23,10 +23,10 @@ public class FoodRecipe {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Integer id;
     // which food this is referring to, Foreign Key
-    private Long foodId;
-    private Long recipeId;
+    private Integer foodId;
+    private Integer recipeId;
     private Double quantity;
     private String descriptor;
 }

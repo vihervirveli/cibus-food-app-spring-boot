@@ -20,7 +20,7 @@ import lombok.NoArgsConstructor;
 public class RecipeTag {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private Long tagId;
-    private Long recipeId;
+    private Integer id;
+    private Integer tagId;
+    private Integer recipeId;
 }

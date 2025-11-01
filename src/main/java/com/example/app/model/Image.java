@@ -20,8 +20,8 @@ import lombok.NoArgsConstructor;
 public class Image {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private Long recipeId;
+    private Integer id;
+    private Integer recipeId;
     private Byte image;
     private Byte thumbnail;
 }
