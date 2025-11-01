@@ -4,6 +4,12 @@ Backend for Cibus Food App
 
 ## Log
 
+### November 1st, 2025
+
+Added the routes (controller), service, and repository for Tag
+
+![tag post](screenshots/tagPOST.png)
+
 ### October 29, 2025
 
 Removed Ingredient class (replaced by FoodRecipe class), edited other classes.
