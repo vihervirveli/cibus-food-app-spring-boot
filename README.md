@@ -6,7 +6,9 @@ Backend for Cibus Food App
 
 ### November 8, 2025
 
-Worked on uniting the frontend with the backend
+Worked on uniting the frontend with the backend.
+
+Added Cors bean to RecipeController
 
 ### November 2nd, 2025
 
