@@ -4,6 +4,10 @@ Backend for Cibus Food App
 
 ## Log
 
+### November 8, 2025
+
+Worked on uniting the frontend with the backend
+
 ### November 2nd, 2025
 
 Added FoodRecipe migration table, controller, service and repository
