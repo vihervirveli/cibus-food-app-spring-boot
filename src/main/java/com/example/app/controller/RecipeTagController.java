@@ -30,7 +30,7 @@ public class RecipeTagController {
 
     /**
      * GET request for returning all the recipeTags
-     * URL: localhost:8080/recipetag/v1/
+     * URL: localhost:8080/v1/recipetag/
      * 
      * @return all recipeTags
      */
@@ -41,7 +41,7 @@ public class RecipeTagController {
 
     /**
      * GET request for fetching one recipeTag with given id
-     * URL: localhost:8080/recipetag/v1/{id}
+     * URL: localhost:8080/v1/recipetag/{id}
      * 
      * @param id
      * @return one recipeTag
@@ -53,7 +53,7 @@ public class RecipeTagController {
 
     /**
      * POST request for saving a recipeTag to the repository
-     * URL: localhost:8080/recipetag/v1/
+     * URL: localhost:8080/v1/recipetag/
      * 
      * @param recipe - Request body is a RecipeTag entity
      * @return Saved RecipeTag entity

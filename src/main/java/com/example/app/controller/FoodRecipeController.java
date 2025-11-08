@@ -32,7 +32,7 @@ public class FoodRecipeController {
 
     /**
      * GET request for returning all the recipes
-     * URL: localhost:8080/foodrecipe/v1/
+     * URL: localhost:8080/v1/foodrecipe/
      * 
      * @return all foodRecipes
      */
@@ -43,7 +43,7 @@ public class FoodRecipeController {
 
     /**
      * GET request for fetching one foodRecipe with given id
-     * URL: localhost:8080/foodrecipe/v1/{id}
+     * URL: localhost:8080/v1/foodrecipe/{id}
      * 
      * @param id
      * @return one foodRecipe
@@ -55,7 +55,7 @@ public class FoodRecipeController {
 
     /**
      * POST request for saving a foodRecipe to the repository
-     * URL: localhost:8080/foodrecipe/v1/
+     * URL: localhost:8080/v1/foodrecipe/
      * 
      * @param foodRecipe - Request body is a FoodRecipe entity
      * @return Saved FoodRecipe entity

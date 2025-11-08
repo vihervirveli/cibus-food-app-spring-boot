@@ -1,9 +1,9 @@
 package com.example.app.controller;
 
-import com.example.app.model.Food;
 import com.example.app.model.Recipe;
 import com.example.app.service.RecipeService;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -14,6 +14,7 @@ import org.springframework.http.ResponseEntity;
 
 import java.util.List;
 
+// @CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/v1/recipe")
 public class RecipeController {
@@ -30,7 +31,7 @@ public class RecipeController {
 
     /**
      * GET request for returning all the recipes
-     * URL: localhost:8080/recipe/v1/
+     * URL: localhost:8080/v1/recipe/
      * 
      * @return all recipes
      */
@@ -41,7 +42,7 @@ public class RecipeController {
 
     /**
      * GET request for fetching one recipe with given id
-     * URL: localhost:8080/recipe/v1/{id}
+     * URL: localhost:8080/v1/recipe/{id}
      * 
      * @param id
      * @return one recipe
@@ -53,7 +54,7 @@ public class RecipeController {
 
     /**
      * POST request for saving a recipe to the repository
-     * URL: localhost:8080/recipe/v1/
+     * URL: localhost:8080/v1/recipe/
      * 
      * @param recipe - Request body is a Recipe entity
      * @return Saved Recipe entity
