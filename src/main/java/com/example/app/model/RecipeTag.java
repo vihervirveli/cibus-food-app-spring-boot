@@ -23,4 +23,14 @@ public class RecipeTag {
     private Integer id;
     private Integer tagId;
     private Integer recipeId;
+
+    /**
+     * Getter for id
+     * 
+     * @return id
+     */
+    public Integer getId() {
+        return id;
+    }
+
 }
