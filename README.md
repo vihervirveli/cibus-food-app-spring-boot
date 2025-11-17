@@ -4,6 +4,10 @@ Backend for Cibus Food App
 
 ## Log
 
+### November 17, 2025
+
+Working on returning the tags with the recipes
+
 ### November 10, 2025
 
 Added cors and getId to tags
